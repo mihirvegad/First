@@ -12,6 +12,10 @@ public class VApplication {
 		public String v() {
 		return "hurrey!! Deployee succesfully";
 	}
+	@GetMapping("/login")
+	public String v() {
+	return "login";
+}
 	public static void main(String[] args) {
 		SpringApplication.run(VApplication.class, args);
 	}
